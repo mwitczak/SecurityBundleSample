@@ -2,6 +2,12 @@
     "name": "martin/securitybundlesample2",
     "license": "proprietary",
     "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mwitczak/SecurityBundle"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "": "src/"
@@ -28,7 +34,7 @@
         "sensio/distribution-bundle": "^5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "^2.0",
-        "damijanc/security-bundle": "^1.0"
+        "mwitczak/security-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
